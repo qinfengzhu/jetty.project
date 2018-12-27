@@ -123,7 +123,7 @@
               <cases>
                 <case>*</case>
               </cases>
-              <testFailureIgnore>false</testFailureIgnore>
+              <testFailureIgnore>true</testFailureIgnore>
               <excludeCases></excludeCases>
               <failOnNonStrict>false</failOnNonStrict>
             </configuration>
