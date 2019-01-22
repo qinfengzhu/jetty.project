@@ -134,9 +134,8 @@
                   <goal>fuzzingclient</goal>
                 </goals>
                 <configuration>
-                  <!-- The class which contains a main method that accept the port as parameter and startup the -->
+                  <!-- The class contains a main method that accept the port as parameter and startup the -->
                   <!-- the server. -->
-                  <!--mainClass>org.eclipse.jetty.websocket.autobahn.WebSocketServer</mainClass-->
                   <mainClass>org.eclipse.jetty.websocket.core.autobahn.AutobahnWebSocketServer</mainClass>
                 </configuration>
               </execution>
